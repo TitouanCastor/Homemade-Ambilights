@@ -1,0 +1,98 @@
+Step 01:
+
+int main(void)
+{
+    BOARD_InitHardware();
+
+    while(1)
+    {
+        LED_BLUE_ON();
+        SDK_DelayAtLeastUs(500000U, SystemCoreClock);
+        LED_BLUE_OFF();
+        SDK_DelayAtLeastUs(500000U, SystemCoreClock);
+        LED_GREEN_ON();
+        SDK_DelayAtLeastUs(500000U, SystemCoreClock);
+        LED_GREEN_OFF();
+        SDK_DelayAtLeastUs(500000U, SystemCoreClock);
+        LED_RED_ON();
+        SDK_DelayAtLeastUs(500000U, SystemCoreClock);
+        LED_RED_OFF();
+        SDK_DelayAtLeastUs(500000U, SystemCoreClock);
+    }
+}
+
+avec:
+
+LED_RED_INIT(LOGIC_LED_OFF);
+LED_BLUE_INIT(LOGIC_LED_OFF);
+LED_GREEN_INIT(LOGIC_LED_OFF);
+
+dans BOARD_InitHardware();
+
+
+Après correction de ChatGPT:
+	5000000U dans SDK_DelayAtLeastUs désigne des micros secondes, soit 0.5 secondes. Elle a besoin d'avoir la clock pour pouvoir compter elle même combien de cycles d'horloges
+représentent 5000000 microsecondes, donc comme la clock est à une fréquence de 12 MHz, 12 000 000 * 0.5 = 6 000 000 de cycles pour 0.5 secondes.
+	Si on ne mettait pas les pauses, les couleurs seraient en permanences toutes allumées ça ferait donc du blanc. Je pense que le processeur change plus vite les couleurs que mon oeil
+ne peut l'apercevoir c'est pour ça que ça donne du blanc.
+	Pendant SDK_DelayAtLeastUs(), je ne pense pas que le processeur puisse continuer a effectuer d'autres taches, il faudrait que je fasse de l'asynchronisation non ?
+
+
+
+
+Step 02:
+	Si on ne définit pas l'état initial d'une led on ne peut pas garantir qu'elle soit éteinte lorsque le programme commence, cependant dans l'initialisation le paramètre que l'on passe
+sert exactement à ça: LOGIC_LED_OFF signifie qu'on veut que la led commence éteinte, et LOGIC_LED_ON signifie qu'on veut que la led commence allumée.
+	L'initialisation des broches et des clocks sont communes à tout les projets puisqu'elles dépendent du matériel, cependant en fonction des composants utilisé on aura pas forcément 
+besoin d'une clock sur la même fréquence, donc ça peut quand même varier. C'est à moi de définir dans l'initialisations des pins leur état de départ.
+	En appuyant sur reset la led s'éteind donc elle doit revenir a un état off automatiquement
+
+
+
+
+Step 03:
+
+Bon je me doute qu'il va falloir que je fasse un truc du style :
+int main(void)
+{
+    BOARD_InitHardware();
+
+    while(1)
+    {
+        if (/*bouton appuyé*/) {
+            LED_BLUE_OFF();
+            LED_RED_ON();
+        } else {
+            LED_BLUE_ON();
+            LED_RED_OFF();
+        }
+    }
+}
+Mais je sais pas ou commencer pour chercher où est le bouton, comment trouver son port gpio son pin etc
+
+Après correction de ChatGPT:
+	j'ai trouvé sur la doc que le bouton WAKEUP s'appelait SW2, sur le schéma éléctronique j'ai vu qu'il était sur le port GPIO 0 sur le pin 23, donc j'ai ouvert config tools, j'ai créé
+un truc et j'ai sélectionné tout ça. J'ai exporté le code donc maintenant dans pin_mux.h j'ai ça :
+
+
+/*! @name PORT0_23 (coord B7), WAKEUP_BUTTON
+  @{ */
+
+/* Symbols to be used with GPIO driver */
+#define BOARD_INITPINS_WAKEUP_BUTTON_GPIO GPIO0                /*!<@brief GPIO peripheral base pointer */
+#define BOARD_INITPINS_WAKEUP_BUTTON_GPIO_PIN 23U              /*!<@brief GPIO pin number */
+#define BOARD_INITPINS_WAKEUP_BUTTON_GPIO_PIN_MASK (1U << 23U) /*!<@brief GPIO pin mask */
+
+/* Symbols to be used with PORT driver */
+#define BOARD_INITPINS_WAKEUP_BUTTON_PORT PORT0                /*!<@brief PORT peripheral base pointer */
+#define BOARD_INITPINS_WAKEUP_BUTTON_PIN 23U                   /*!<@brief PORT pin number */
+#define BOARD_INITPINS_WAKEUP_BUTTON_PIN_MASK (1U << 23U)      /*!<@brief PORT pin mask */
+                                                               /* @} */
+
+
+mais je sais pas pour autant comment utiliser ça pour connaitre l'input du bouton.
+
+Après deuxième correction de ChatGPT:
+	Avec uniquement ce qu'il y a dans pin_mux.h il est impossible de récupérer l'état actuel du bouton, tout ces éléments servent seulement à définir le bouton, savoir sur quel port il est, quel
+pin etc..., mais du coup je n'ai aucune idée de comment récuperer l'état du bouton, j'imagine avec PORT0 puisque c'est celui qu'on a pas encore utilisé et je ne sais pas encore à quoi il
+sert tandis que je comprend ce que c'est GPIO0.

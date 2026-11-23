@@ -1,0 +1,148 @@
+Step 01:
+	Au moment de l'initialisation de la board (première ligne du main), Tout d'abord la Clock est activée, elle servira sûrement pour pouvoir faire toutes les actions toutes les x
+secondes etc, puis les pins, qui sont probablement chaque composants que la board contient, puis la ligne BOARD_BootClockFRO12M(); sert probablement à remettre la clock à 0 ? Ou
+alors pour fixer son fuseau horraire je sais pas. Puis on initialise le module systick, mais aucune idée de ce que c'est, j'ai l'impression que c'est une clock paralèlle à la première
+adaptée au microcontroleurs ? Puis on initialise la led rouge mais ça j'imagine que c'est optionnel.
+
+Après correction par ChatGPT:
+	La clock est donc simplement l'uptime de la board, ce qui permet aux composants de calculer leur temps d'execution en fonction de l'uptime, par exmple un processeur fonctionnant à
+une fréquence de 12 MHz divise la seconde par 12 million et s'execute tout les résultat de 1 / 12 000 000. C'est pourquoi un processeur fonctionnant à une fréquence de 150 MHz, s'execute
+plus de fois par secondes que 12 MHz.
+	Par rapport aux pins, il faut les différencier des composants, les pins sont les entrées / sorties des composants de la board, les composants eux
+ont chacun une utilité / fonctions dédiées pour faire fonctionner la board. Je ne sais par contre pas pourquoi un seul pin peut avoir plusieurs fonctions , et je ne comprend pas pourquoi
+il faut configurer des broches avant de pouvoir utiliser des leds.
+	Par rapport à BOARD_BootClockFRO12M, j'imagine que ça veut dire que la clock de la Board va être initialisée à 12 MHz, donc même si un composant en demandait plus (même si
+j'imagine que c'est construit en fonction de la clock) la clock ne pourrait pas aller au delà de 12 MHz, FRO signifie un oscillateur qui fourni une clock, donc j'imagine que l'oscillateur
+est en réalité la clock, ou du moins que les deux sont très liés. Si on ne fait pas cette commande on ne sait pas combien de MHz supporte la clock.
+	Et donc après tout ce que j'ai dit, peut être que le Systick, (System Tick timer), est celui qui compte les MHz de la clock pour prévenir les différents composants quand ils
+doivent executer leurs taches ?
+
+Après deuxième correction par ChatGPT:
+	Donc en fait la clock c'est juste un composant qui fait un signal tout les x temps, défini par BOARD_BootClockFRO12M, donc en l'occurence, 12 MHz. Le processeur 12MHz ne peut
+pas executer 12 millions d'instructions qui prennent 4 ticks de clocks par secondes, il peut en faire maximum 3 millions. La clock ne connait pas la durée de fonctionnement d'un
+processeur, elle se contente de faire le signal tout les 1 / 12 000 000 de secondes. Le SysTick est celui qui compte les secondes, puisqu'il est configuré avec 12000000 en paramètre, on
+en conclut qu'il compte les signaux de la clock pour former les secondes.
+	L'avantage d'utiliser une broche pour différentes opérations est qu'il n'y a pas besoin d'avoir autant de broches que de fonctionalités dans un microcontroleur. En fonction du 
+format de la broche ou du format des informations qu'elle contient, le microcontroleurs doit pouvoir déduire quelle fonctionalité il doit être activée. Lorsque je connecte une LED à une
+broche je souhaite envoyer une information, celle de la couleur utilisé ?
+	L'avantage qu'à un microcontrolleur a à avoir plusieurs sources d'horloges serait qu'il peut adapter les horloges aux composants puisqu'ils ne vont pas tous à la même fréquence. 
+Cependant je ne comprend pas trop à quoi ça sert puisqu'une horloge allant à sa vitesse maximale, imaginons 150 MHz peut servir à tout les composants qui calculent eux même à quel tick
+ils s'activent, ou alors plusieurs horloges = plusieurs SysTick, et du coup on utilise les Systick pour définir l'heure d'activation des composants, dans ce cas là la clock ne sert que
+pour les systicks, et les systicks ne servent qu'à dire "la clock vient de compléter 12 000 000 de cycles", mais dans ce cas encore une fois il pourrait y avoir plusieurs SysTicks pour
+une seul clock donc je sais pas trop. Je ne pense pas qu'il y ai de différence entre la fréquence d'un processeur et celle d'un périphérique. La différence entre la fréquence maximale
+microcontrôleur peut supporter et la fréquence à laquelle il fonctionne actuellement est que sa fréquence maximale est surement qu'il ne peut pas physiquement aller plpus loin, alors
+que la fréquence a laquelle il fonctionne est défini au moment de l'allumage de la board.
+	Ahhhh donc en fait la ligne "SysTick_Config(12000000UL);" c'est juste pour dire au SysTick, la clock fonctionne à une fréquence de 12 MHz, pour qu'ensuite il fasse lui même ses
+calculs pour savoir quand sont passés 500ms, etc... et quand il sait qu'il a atteind 500ms, il fait son petit signal. J'imagine que ça consomme moins de ressources qu'une boucle qui ne
+fait rien pendant 500ms.
+
+Après troisième correction par ChatGPT:
+	Donc c'est le processeur qui défini quelle fonction aura le pin utilisé, "Si tu souhaites utiliser une broche comme GPIO, quels éléments de sa configuration pourraient être
+importants", je ne comprend pas trop cette question. Et je pense qu'une LED classique et une WS2812B n'auront pas besoin des mêmes informations, puisque la led rouge classique suffit de
+lui dire qu'elle s'allume ou qu'elle s'éteigne, a la limite faudrait lui dire sa couleur si elle en a plusieurs, mais la WS2812B faut lui dire quelle partie de la bande allumer etc...
+	Je pense qu'en fonction de sa fréquence un circuit éléctronique consomme plus ou moins d'énergie, dans ce cas on peut désactiver les horloges dont les périphériques sont inactifs
+afin d'économiser de l'énergie. Et du coup, si on a plusieurs horloges, on peut désactiver les plus couteuses en énergie si on en a pas besoin et garder celles a une fréquence plus basse,
+ce qui explique pourquoi on a pas besoin d'avoir une seule horloge 150 MHz, par soucis de consomation. On a cependant pas besoin d'avoir une horloge par composant car ils peuvent avoir
+une fréquence différente mais quand même fonctionner sur la même clock.
+	Si le SysTick est configuré pour recevoir 12 000 000 de signaux par secondes, au bout de 12 000 000 de signaux une seconde est passée, si on veut avoir un signal toute les 500ms
+de la part du SysTick, il faut diviser par deux donc 6 000 000, si on passe à 24 MHz, dans ce cas aussi on aura un signal du SysTick toutes les 500ms
+
+Après quatrième correction par ChatGPT:
+	Une pin connectée à un bouton serait une pin d'entrée, puisque l'information que le bouton est pressée vient de l'extérieur, tandis que la pin connectée à une LED est une
+pin de sortie, puisque c'est depuis l'intérieur qu'on allume / éteind la LED. J'imagine que lorsque la led est allumée, la pin est en état HIGH, puisque le courrant passe et quand elle
+est éteinte elle est en état LOW puisqu'il n'y a plus de courant. Si la pin du bouton fonctionne comme la pin de la led, j'imagine que si le bouton est appuyé, il renverra HIGH et quand
+il ne l'est pas il renvoie LOW.
+	Si la led contient trois éléments lumineux, trois pin pourraient représenter chacune des couleurs et on met en HIGH celle qui doit être affichée ?
+	
+
+
+
+Step 02:
+	Je ne comprend pas la question "Pourquoi l’etat logique d’une broche n’est-il pas necessairement la couleur visible ?", mais dans le cas d'une led je dirais que l'état logique de
+la broche est simplement une définition mais ça peut changer au cours du programme. Quand aux definitions des macros pour les leds RGB, dans board.h, y a les definitions des GPIO et des
+pins, cependant j'avais cru comprendre que un pin peut être un gpio donc je comprend pas trop pourquoi on défini les deux, brefs dans pin_mux.c je vois qu'on initialise la led bleu. Peut
+être qu'il y a des définitions autre parts mais je les ai pas trouvé, d'ailleurs je pense que c'est avec Config Tools que la définition a été faite dans pin_mux.c
+
+Après correction de ChatGPT:
+	Ok je comprends mieux, du coup quand si toutes les leds sont en active LOW, et que y a la rouge en LOW et les deux autres en high, la LED sera allumé en rouge, si c'était en
+active HIGH ce serait un bleu canard (bleu et vert allumé)
+	Pour les GPIO j'ai cherché un peu, typiquement pour la led rouge, son gpio est défini à GPIO0, par contre quand je regarde la definition de GPIO0, je trouve ça :
+((GPIO_Type *)GPIO0_BASE) , aucune idée de ce que c'est.
+	La valeur donnée à PIN est un nombre non signé.
+	LED_BLUE_INIT(LOGIC_LED_OFF) sert à initialiser la led et LED_BLUE_ON(), est là pour modifier son état, par exemple la passer à HIGH dans le cas d'un active high. je ne sais pas
+non plus ce que c'est LOGIC_LED_OFF.
+	Je dirais que la definition dans pin_mux.c suffit pour commander la led, on lui indique que la BLUE_LED est un pin d'output, on lui donne le GPIO de la led donc franchement ça
+me parrait assez complet.
+	J'en profite pour rajouter que je pense avoir compris que le GPIO est un groupe de pin, donc typiquement, le RED_LED et GREEN_LED, partagent le GPIO0, tandis que le BLUE_LED est
+sur le GPIO1, dans le GPIO0 la RED_LED est associée au pin 10, et la GREEN_LED est associée au pin 27, ce qui veut dire que le GPIO0 contient au moins 27 pin. Une question pas si 
+essentiel à ma compréhension mais qui me titille l'esprit reste quand même, pourquoi la BLUE_LED n'est pas sur le GPIO0, ce qui me fait penser que j'ai peut être mal compris quelque chose.
+
+Après deuxième correction de ChatGPT:
+	Il n'y a pas besoin que les trois leds soient connectées au même port GPIO pour fonctionner, la preuve c'est que la bleu et la rouge ne sont pas sur le même et pourtant je peux
+faire du violet. Par contre pourquoi tel pin est utilisé pour telle led, ça j'en ai aucune idée, en consultant le manuel de NXP, je vois que y a [3, 12] a coté de GREEN et RED tandis
+qu'à côté de BLUE y a [3, 10, 12] donc la différence de GPIO vient sûrement de là mais je sais pas ce que représentent ces nombres.
+	L'avantage de pouvoir accéder à certains périphériques avec une adresse mémoire est que c'est simple à stocker, et c'est surtout simple à utiliser, on peut dereferencer les
+pointeurs pour utiliser leur contenu ou envoyer l'adresse à d'autres endroit, enfin on peut en faire ce qu'on veut comme en C quoi. J'ai l'impression que tu veux me dire que chaque
+GPIO a ses registres dans lesquels il peut stocker ce qu'il veut pour faire communiquer ses périphériques ou simplement faire des calculs comme en asm.
+	c'est marrant LOGIC_LED_ON est à 0 et le OFF est à 1, ça signifie donc que c'est un active LOW depuis le début je pense. J'imagine qu'on utilise pas LOW et HIGH pour pouvoir le 
+changer à notre guise.
+	Alors je sais pas si c'est des fonctions du SDK NXP, par contre je vois que GPIO1 est en fait une structure, puisqu'il y a la syntaxe : "BOARD_LED_BLUE_GPIO->PDDR" donc doit y
+avoir plein d'informations là dedans, j'en ai pas forcément besoin maintenant mais je suis sûr que comprendre tout ce que contient cette structure peut être très utile pour la suite.
+Je vois aussi qu'on défini simplement le pin d'un GPIO, en donnant le GPIO1 (celui de la led) et le pin 2 (celui de la led) et en notifiant que c'est un output. Je ne sais pas ce que
+signigie la syntaxe "|=" donc difficile à dire ce que veut dire la suite.
+
+
+
+
+Step 03:
+	Franchement j'ai pas compris grand chose à la question, le composant RGB c'est la led du coup ? Et ses connexions c'est tout les pins qui lui sont reliés ? Quand au document
+j'imagine que c'est la fiche technique de la board mais encore une fois je comprends pas trop la question, c'est juste deux trucs completement différents, son nom c'est genre 1 2 3 4
+alors que sa fonction ça peut être plein de trucs non ?
+
+Après correction de ChatGPT:
+	VOIR SCHEMA ELECTRONIQUE DE LA FRDM-MCXN947, c'est ça le schéma électronique ? Parce que si oui je comprend pas un pet de ce que ça raconte, par contre t'es en train de me dire 
+qu'une broche donc un pin, peut etre utilisé comme un GPIO ? mais là ça boulverse toute mes croyances, je pensais qu'un GPIO c'était un groupe de pins ? Et j'imagine que toutes les 
+réponses du reste des questions sont dans le schéma que je t'ai envoyé.
+
+Après deuxième correction de ChatGPT:
+	Donc les 3 couleurs RGB sont connectés à une alimentation électrique d'un côté, et des 3 GPIO respectifs de l'autre. J'en conclus deux possibilités, soit l'alimentation est
+controlée par le processeur ou autre pour savoir à quelle couleur il faut envoyer du courant et à quelle couleur il ne faut pas, dans ce cas là les GPIO servent juste à prévenir le reste
+que la led est ON ou OFF, ou alors c'est le GPIO qui commande un ON et un OFF, et l'alimentation s'adapte et envoie le courant dans les bonnes couleurs. Puisque c'est en active LOW
+ça change pas grand chose au raisonement, simplement qu'il ne faut pas envoyer de courant dans les couleurs pour qu'elles soient affichées.
+	Donc le GPIO est en réalité un pin qui sert soit à une entrée soit une sortie, et quand on parle du GPIO0, en fait c'est un port GPIO, et il contient plusieurs GPIO, en fait depuis
+tout à l'heure je fais le raccourci en oubliant de dire "port" GPIO, pour GPIO0-1 etc... Mais du coup un port GPIO c'est matérialisé comment ? c'est juste l'adresse du pin qui est changée
+en fonction du port GPIO ou alors un port GPIO est un composant / périphériques ?
+	En cherchant sur le schéma éléctronique de la frdm-mcxn947, chacune des leds P1_2/LED_BLUE, P0_10/LED_RED et P0_27/LED_GREEN, ont chacun un autre endroit où ils sont écris,
+à chaque fois j'ai l'impression que c'est leur voisin qui est affiché à coté d'eux puisqu'ils sont relié au même pin. Du coup en repensant à ce qu'on disait tout à l'heure peut être
+que le même pin à plusieurs utilités, et que l'autre qui est écris c'est la deuxieme utilité ? c'est qu'une hypothèse mais ça me parrait pas con.
+
+Après troisième correction de ChatGPT:
+	Je n'ai jamais fait d'éléctronique donc aucune idée si une extrémité de la LED est à 3,3 V et l'autre à 0 V, si le courrant peut circuler. Si je suis ma logique, un courant peut passer
+puisqu'une des deux parties est vide, alors que si les deux était à 3,3 V bah elles ne pourraient pas se croiser, je sais pas trop comment expliquer. Mais du coup si c'est ça ça signifie
+que la résistance est à 3,3 V et quand la couleur doit s'allumer sa résistance passe à 0V pour laisser passer le courant de l'alimentation ? Ah non car ça c'est si la led est à une
+extrémité, mais du coup vu que la led est entre l'alimentation positive et la résistance, j'imagine que la led peut faire un peu office de barrage, quand elle est allumée la resistance
+passe à 0V, et le GPIO capte ça en LOW, d'où l'active LOW. Enfin je sais pas trop c'est que des hypothèses.
+	Par rapport à GPIO0, de ce que je comprend il a besoin d'une adresse mémoire parce que c'est un pointeur sur un GPIO, et après c'est juste du C quoi, avec cette adresse on peut
+accéder à tout les broches de ce pointeur quoi. Je comprend pas trop la question "Pourquoi pourrait-il posséder plusieurs registres, plutôt qu'un seul numéro d'identification ?", puisque
+c'est deux choses complètement différente non ? Les registres c'est là ou il stocke toutes ses infos variables calculs etc, alors qu'un numéro d'identification ça peut être son adresse
+mémoire ou son id non ?
+	Les deux noms P0_10/LED_RED et P0_10/CT0_MAT0-ARD-D9 sont écris sur deux lignes différentes mais qui se rejoignent avec écris P0_10 à la fin, donc j'imagine que c'est les deux
+fonctions du pin 10 du port GPIO 0. Pareil pour le GREEN, et pour la BLUE c'est la même chose mais ils sont 3 à se rejoindre. En revanche impossible de retrouver les PIN reliés aux RGB
+dans Config Tools.
+
+Après quatrième correction de ChatGPT:
+	Donc faut voir le courant comme un petit ruisseau ? Si jamais le terrain est en pente, 3,3 V sur l'alimentation et 0 sur le GPIO, le ruisseau s'écoule, le courrant passe. Par contre
+si le terrain est plat, 3,3 V des deux cotés, l'eau reste chacune de son côté, donc entre les deux c'est sec, la led n'est pas alimenté, elle est éteinte. donc même si ça vient de la même
+alimentation, le courant ne passe pas nécessairement dans toutes les leds, en fonction de l'état du GPIO, dans l'exemple que tu me donnes, la led rouge est allumée car son GPIO est à low.
+	"Si tu possèdes un registre de 32 bits permettant de configurer 32 broches GPIO, comment pourrais-tu utiliser chaque bit pour déterminer si une broche est une entrée ou une
+sortie ?", il suffit de faire 1 = une sortie et 0 une entrée, ou l'inverse, et ça prend tout son sens avec ce qu'on a vu avant avec le |=, si je me souvient bien on est juste allé chercher
+dans le port GPIO le bon pin et on a rajouté un 1 si jamais il n'était pas encore en 1, exceptionnel.
+
+
+
+
+Step 04:
+	Si je met un breakpoint sur la première instruction de ta boucle, pour vérifier que cette instruction est exécutée plusieurs fois et pas une seule, il me suffit d'aller jusqu'à
+la fin de la boucle et de vérifier si elle s'exécute sur la deuxième occurence de la boucle.
+	Il est possible que le programme continue de s'exécuter normalement sans se soucier de la led si celle ci rencontre un problème. Si ma led ne change plus d'état ça ne veut pas
+nécessairement signifier que le programme est bloqué.

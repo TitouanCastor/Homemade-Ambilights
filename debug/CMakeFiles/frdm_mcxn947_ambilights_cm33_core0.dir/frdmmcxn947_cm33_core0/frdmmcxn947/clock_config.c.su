@@ -1,0 +1,12 @@
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.h:1496:20:CLOCK_EnableClock	24	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:46:6:BOARD_InitBootClocks	8	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:79:6:BOARD_BootClockFRO12M_InitClockModule	16	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:306:6:BOARD_BootClockFRO12M	24	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:421:6:BOARD_BootClockFROHF48M_InitClockModule	16	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:649:6:BOARD_BootClockFROHF48M	24	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:769:6:BOARD_BootClockFROHF144M_InitClockModule	16	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:997:6:BOARD_BootClockFROHF144M	24	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:1121:6:BOARD_BootClockPLL150M_InitClockModule	48	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:1362:6:BOARD_BootClockPLL150M	24	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:1486:6:BOARD_BootClockPLL100M_InitClockModule	48	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/clock_config.c:1733:6:BOARD_BootClockPLL100M	24	static

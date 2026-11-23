@@ -1,0 +1,3838 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263,
+						264,
+						265,
+						266,
+						267,
+						271,
+						272,
+						273,
+						274
+					],
+					"jsonFile" : "directory-.-release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "cmake/extension/flash",
+					"jsonFile" : "directory-cmake.extension.flash-release-b6b81f9f244794da20fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/cmake/extension/flash",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "cmake/extension/usage",
+					"jsonFile" : "directory-cmake.extension.usage-release-94e5b9b775c700b927d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/cmake/extension/usage",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "cmake/extension/reports",
+					"jsonFile" : "directory-cmake.extension.reports-release-de78e223b2e21ece6003.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/cmake/extension/reports",
+					"targetIndexes" : 
+					[
+						1,
+						5,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "devices/MCX/MCXN/MCXN947",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-devices.MCX.MCXN.MCXN947-release-1ba52004f534904cdfde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947"
+				},
+				{
+					"build" : "devices/MCX/MCXN/MCXN947/drivers",
+					"jsonFile" : "directory-devices.MCX.MCXN.MCXN947.drivers-release-f36812777dc48cbed882.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers"
+				},
+				{
+					"build" : "devices/MCX/MCXN/MCXN947/drivers/romapi",
+					"jsonFile" : "directory-devices.MCX.MCXN.MCXN947.drivers.romapi-release-406c8732ca9ea8f15bcf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/romapi"
+				},
+				{
+					"build" : "arch/arm/CMSIS",
+					"jsonFile" : "directory-arch.arm.CMSIS-release-ff2948bfbea7efe3ced5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS"
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-examples-release-34b32f7705640737d3af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples"
+				},
+				{
+					"build" : "examples/_boards/frdmmcxn947",
+					"jsonFile" : "directory-examples._boards.frdmmcxn947-release-74bd570d55c504efebd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947"
+				},
+				{
+					"build" : "drivers/cdog",
+					"jsonFile" : "directory-drivers.cdog-release-123ee53f570d526c217c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cdog"
+				},
+				{
+					"build" : "drivers/common",
+					"jsonFile" : "directory-drivers.common-release-c016b8517b4d7b8b2451.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/common"
+				},
+				{
+					"build" : "drivers/crc",
+					"jsonFile" : "directory-drivers.crc-release-c2726e968735de949ddb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/crc"
+				},
+				{
+					"build" : "drivers/ctimer",
+					"jsonFile" : "directory-drivers.ctimer-release-0b2a1dd7b2047b20dca2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/ctimer"
+				},
+				{
+					"build" : "drivers/dac14",
+					"jsonFile" : "directory-drivers.dac14-release-b64ede5e954bbe7b4d6c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/dac14"
+				},
+				{
+					"build" : "drivers/dac_1",
+					"jsonFile" : "directory-drivers.dac_1-release-67bf2d3c7bbf71677e82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/dac_1"
+				},
+				{
+					"build" : "drivers/edma4",
+					"jsonFile" : "directory-drivers.edma4-release-865eeda4d01045b797ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/edma4"
+				},
+				{
+					"build" : "drivers/edma_unified",
+					"jsonFile" : "directory-drivers.edma_unified-release-dc18ead1684111ba5363.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/edma_unified"
+				},
+				{
+					"build" : "drivers/eim",
+					"jsonFile" : "directory-drivers.eim-release-015b9e47a8cc88f4ba70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/eim"
+				},
+				{
+					"build" : "drivers/erm",
+					"jsonFile" : "directory-drivers.erm-release-3f4ac326477e03360192.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/erm"
+				},
+				{
+					"build" : "drivers/evtg",
+					"jsonFile" : "directory-drivers.evtg-release-b35de4a96d24f66fa3a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/evtg"
+				},
+				{
+					"build" : "drivers/ewm",
+					"jsonFile" : "directory-drivers.ewm-release-9400b5c08d57f41e187c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/ewm"
+				},
+				{
+					"build" : "drivers/flexcan",
+					"jsonFile" : "directory-drivers.flexcan-release-c8fe216cd0f1eb74d963.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexcan"
+				},
+				{
+					"build" : "drivers/flexio",
+					"jsonFile" : "directory-drivers.flexio-release-266df7fc879f7b234414.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio"
+				},
+				{
+					"build" : "drivers/flexpwm",
+					"jsonFile" : "directory-drivers.flexpwm-release-ee49dd9457c844eba59d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexpwm"
+				},
+				{
+					"build" : "drivers/flexspi",
+					"jsonFile" : "directory-drivers.flexspi-release-cdbae230478100677349.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexspi"
+				},
+				{
+					"build" : "drivers/gdet",
+					"jsonFile" : "directory-drivers.gdet-release-a8a7efc5f15f8435717d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/gdet"
+				},
+				{
+					"build" : "drivers/gpio",
+					"jsonFile" : "directory-drivers.gpio-release-5c996f2884f35da64526.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/gpio"
+				},
+				{
+					"build" : "drivers/i3c",
+					"jsonFile" : "directory-drivers.i3c-release-69137252cb2f38d330a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/i3c"
+				},
+				{
+					"build" : "drivers/inputmux",
+					"jsonFile" : "directory-drivers.inputmux-release-dae94751e609df90ff18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/inputmux"
+				},
+				{
+					"build" : "drivers/intm",
+					"jsonFile" : "directory-drivers.intm-release-0d8141ef4c9748c29322.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/intm"
+				},
+				{
+					"build" : "drivers/iped",
+					"jsonFile" : "directory-drivers.iped-release-051689b2ec5c920d3969.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/iped"
+				},
+				{
+					"build" : "drivers/irtc",
+					"jsonFile" : "directory-drivers.irtc-release-417d05fe47c3884e3c26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/irtc"
+				},
+				{
+					"build" : "drivers/itrc",
+					"jsonFile" : "directory-drivers.itrc-release-1cf60c0c33f68adffacb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/itrc"
+				},
+				{
+					"build" : "drivers/lpadc",
+					"jsonFile" : "directory-drivers.lpadc-release-32a7302244e5fca80642.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpadc"
+				},
+				{
+					"build" : "drivers/lpc_freqme",
+					"jsonFile" : "directory-drivers.lpc_freqme-release-0947cf1d17eee6474be1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpc_freqme"
+				},
+				{
+					"build" : "drivers/lpcmp",
+					"jsonFile" : "directory-drivers.lpcmp-release-8fd89607f743707ae8f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpcmp"
+				},
+				{
+					"build" : "drivers/lpflexcomm",
+					"jsonFile" : "directory-drivers.lpflexcomm-release-4f72f182d9f6e7253b03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm"
+				},
+				{
+					"build" : "drivers/lptmr",
+					"jsonFile" : "directory-drivers.lptmr-release-541cb3635cf34136096b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lptmr"
+				},
+				{
+					"build" : "drivers/mailbox",
+					"jsonFile" : "directory-drivers.mailbox-release-fc69228462704403775f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mailbox"
+				},
+				{
+					"build" : "drivers/mcx_cmc",
+					"jsonFile" : "directory-drivers.mcx_cmc-release-b8a6fc13c17800706833.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_cmc"
+				},
+				{
+					"build" : "drivers/mcx_enet",
+					"jsonFile" : "directory-drivers.mcx_enet-release-eabdbcead515208accd3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_enet"
+				},
+				{
+					"build" : "drivers/mcx_spc",
+					"jsonFile" : "directory-drivers.mcx_spc-release-03b26d44d0c38081ca18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc"
+				},
+				{
+					"build" : "drivers/mcx_vbat",
+					"jsonFile" : "directory-drivers.mcx_vbat-release-5d016b009975bef57383.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_vbat"
+				},
+				{
+					"build" : "drivers/mrt",
+					"jsonFile" : "directory-drivers.mrt-release-94468ccf82a082732dae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mrt"
+				},
+				{
+					"build" : "drivers/npx",
+					"jsonFile" : "directory-drivers.npx-release-6d8644ca6d576fced411.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/npx"
+				},
+				{
+					"build" : "drivers/opamp",
+					"jsonFile" : "directory-drivers.opamp-release-1aba0c09b8f323a9baab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/opamp"
+				},
+				{
+					"build" : "drivers/ostimer",
+					"jsonFile" : "directory-drivers.ostimer-release-637fb8382ebb17f631ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/ostimer"
+				},
+				{
+					"build" : "drivers/otp",
+					"jsonFile" : "directory-drivers.otp-release-40c06750060f72ec2aa6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/otp"
+				},
+				{
+					"build" : "drivers/pdm",
+					"jsonFile" : "directory-drivers.pdm-release-18897bf8e931bc3f0f7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/pdm"
+				},
+				{
+					"build" : "drivers/pint",
+					"jsonFile" : "directory-drivers.pint-release-9848a8afdf67129b50fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/pint"
+				},
+				{
+					"build" : "drivers/plu",
+					"jsonFile" : "directory-drivers.plu-release-4e3697a6b227379f5fda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/plu"
+				},
+				{
+					"build" : "drivers/port",
+					"jsonFile" : "directory-drivers.port-release-6fe42b578b8b36f3b0e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/port"
+				},
+				{
+					"build" : "drivers/powerquad",
+					"jsonFile" : "directory-drivers.powerquad-release-822de2c0dd4857f149a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/powerquad"
+				},
+				{
+					"build" : "drivers/puf_v3",
+					"jsonFile" : "directory-drivers.puf_v3-release-50bc1caa21a01edb1248.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/puf_v3"
+				},
+				{
+					"build" : "drivers/pwm",
+					"jsonFile" : "directory-drivers.pwm-release-ef10d1538c3d4d7f6096.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/pwm"
+				},
+				{
+					"build" : "drivers/qdc",
+					"jsonFile" : "directory-drivers.qdc-release-6ba7af39f537a4ef09f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/qdc"
+				},
+				{
+					"build" : "drivers/sai",
+					"jsonFile" : "directory-drivers.sai-release-f81f455024a1c9798fa2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/sai"
+				},
+				{
+					"build" : "drivers/sctimer",
+					"jsonFile" : "directory-drivers.sctimer-release-998fe7279a30d60f9bf8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/sctimer"
+				},
+				{
+					"build" : "drivers/sema42",
+					"jsonFile" : "directory-drivers.sema42-release-52b9b05d1dd62ffd004b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/sema42"
+				},
+				{
+					"build" : "drivers/sinc",
+					"jsonFile" : "directory-drivers.sinc-release-2c67e3a03169d2e6e153.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/sinc"
+				},
+				{
+					"build" : "drivers/smartcard",
+					"jsonFile" : "directory-drivers.smartcard-release-0d1db9be9b9f915bf0d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/smartcard"
+				},
+				{
+					"build" : "drivers/smartdma",
+					"jsonFile" : "directory-drivers.smartdma-release-94ef205168d872bb5aea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/smartdma"
+				},
+				{
+					"build" : "drivers/syspm",
+					"jsonFile" : "directory-drivers.syspm-release-74a30d7fa48ba51db38a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/syspm"
+				},
+				{
+					"build" : "drivers/tdet",
+					"jsonFile" : "directory-drivers.tdet-release-c2eece37dc76f843c4d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/tdet"
+				},
+				{
+					"build" : "drivers/trdc_1",
+					"jsonFile" : "directory-drivers.trdc_1-release-991d7fbe5d8d53b0dda6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/trdc_1"
+				},
+				{
+					"build" : "drivers/usdhc",
+					"jsonFile" : "directory-drivers.usdhc-release-3320e5e86474588ad049.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/usdhc"
+				},
+				{
+					"build" : "drivers/utick",
+					"jsonFile" : "directory-drivers.utick-release-23b8a507056c6b0c7d80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/utick"
+				},
+				{
+					"build" : "drivers/vref_1",
+					"jsonFile" : "directory-drivers.vref_1-release-d5d654b7a3b537e21798.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/vref_1"
+				},
+				{
+					"build" : "drivers/wuu",
+					"jsonFile" : "directory-drivers.wuu-release-18b060688966dba9e338.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/wuu"
+				},
+				{
+					"build" : "drivers/wwdt",
+					"jsonFile" : "directory-drivers.wwdt-release-253b9fa700a4e45552bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/wwdt"
+				},
+				{
+					"build" : "drivers/cache/armv7-m7",
+					"jsonFile" : "directory-drivers.cache.armv7-m7-release-1cd240afcb4b9e76a445.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cache/armv7-m7"
+				},
+				{
+					"build" : "drivers/cache/armv8-a",
+					"jsonFile" : "directory-drivers.cache.armv8-a-release-83d21ccadb9856dc1192.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cache/armv8-a"
+				},
+				{
+					"build" : "drivers/cache/cache64",
+					"jsonFile" : "directory-drivers.cache.cache64-release-205dbb369df6fee35494.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cache/cache64"
+				},
+				{
+					"build" : "drivers/cache/llc",
+					"jsonFile" : "directory-drivers.cache.llc-release-838d3dcddf1c194de05b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cache/llc"
+				},
+				{
+					"build" : "drivers/cache/lmem",
+					"jsonFile" : "directory-drivers.cache.lmem-release-65739e05ad59f2dfbb60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cache/lmem"
+				},
+				{
+					"build" : "drivers/cache/lpcac",
+					"jsonFile" : "directory-drivers.cache.lpcac-release-f4d6cd82eff6b335e272.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cache/lpcac"
+				},
+				{
+					"build" : "drivers/cache/lpcac_n4a_mcxn",
+					"jsonFile" : "directory-drivers.cache.lpcac_n4a_mcxn-release-98522d089afbac8cf11e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cache/lpcac_n4a_mcxn"
+				},
+				{
+					"build" : "drivers/cache/lplmem",
+					"jsonFile" : "directory-drivers.cache.lplmem-release-aabbe11ed96b10135398.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cache/lplmem"
+				},
+				{
+					"build" : "drivers/cache/xcache",
+					"jsonFile" : "directory-drivers.cache.xcache-release-0175e8407b8e77c204b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/cache/xcache"
+				},
+				{
+					"build" : "drivers/flexio/a-format",
+					"jsonFile" : "directory-drivers.flexio.a-format-release-9ec52e0590f86ddb445f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/a-format"
+				},
+				{
+					"build" : "drivers/flexio/biss",
+					"jsonFile" : "directory-drivers.flexio.biss-release-0323e573109183114634.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/biss"
+				},
+				{
+					"build" : "drivers/flexio/camera",
+					"jsonFile" : "directory-drivers.flexio.camera-release-4d7619edf0f6f88d853c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/camera"
+				},
+				{
+					"build" : "drivers/flexio/endat2p2",
+					"jsonFile" : "directory-drivers.flexio.endat2p2-release-9dc1ad86cfea78ac5a33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/endat2p2"
+				},
+				{
+					"build" : "drivers/flexio/i2c",
+					"jsonFile" : "directory-drivers.flexio.i2c-release-2884051e292b4129e713.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/i2c"
+				},
+				{
+					"build" : "drivers/flexio/i2s",
+					"jsonFile" : "directory-drivers.flexio.i2s-release-2c867b06ef8c75e5942b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/i2s"
+				},
+				{
+					"build" : "drivers/flexio/mculcd",
+					"jsonFile" : "directory-drivers.flexio.mculcd-release-703199d9434f71c61e88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/mculcd"
+				},
+				{
+					"build" : "drivers/flexio/qspi",
+					"jsonFile" : "directory-drivers.flexio.qspi-release-4fa6010f8cd732af8256.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/qspi"
+				},
+				{
+					"build" : "drivers/flexio/spi",
+					"jsonFile" : "directory-drivers.flexio.spi-release-888610afbf7d6025bc18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/spi"
+				},
+				{
+					"build" : "drivers/flexio/t-format",
+					"jsonFile" : "directory-drivers.flexio.t-format-release-e3dd7256f9acc7267364.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/t-format"
+				},
+				{
+					"build" : "drivers/flexio/uart",
+					"jsonFile" : "directory-drivers.flexio.uart-release-695cd5b1825f42b37edc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexio/uart"
+				},
+				{
+					"build" : "drivers/flexspi/flexspi_dma3",
+					"jsonFile" : "directory-drivers.flexspi.flexspi_dma3-release-028fb5ed23058f8d6609.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/flexspi/flexspi_dma3"
+				},
+				{
+					"build" : "drivers/lpflexcomm/lpi2c",
+					"jsonFile" : "directory-drivers.lpflexcomm.lpi2c-release-1e4396bcf14db17bbef7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpi2c"
+				},
+				{
+					"build" : "drivers/lpflexcomm/lpspi",
+					"jsonFile" : "directory-drivers.lpflexcomm.lpspi-release-dbba9d87556dc270d555.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpspi"
+				},
+				{
+					"build" : "drivers/lpflexcomm/lpuart",
+					"jsonFile" : "directory-drivers.lpflexcomm.lpuart-release-9f4177cdc8928764fcd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart"
+				},
+				{
+					"build" : "drivers/tsi/tsi_v2",
+					"jsonFile" : "directory-drivers.tsi.tsi_v2-release-1be8ea9eb252776ff8b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/tsi/tsi_v2"
+				},
+				{
+					"build" : "drivers/tsi/tsi_v4",
+					"jsonFile" : "directory-drivers.tsi.tsi_v4-release-398e96e2c71aed597c8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/tsi/tsi_v4"
+				},
+				{
+					"build" : "drivers/tsi/tsi_v5",
+					"jsonFile" : "directory-drivers.tsi.tsi_v5-release-8d043f6a3c8f18e5e8cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/tsi/tsi_v5"
+				},
+				{
+					"build" : "drivers/tsi/tsi_v6",
+					"jsonFile" : "directory-drivers.tsi.tsi_v6-release-10463d585b872e5b92ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/tsi/tsi_v6"
+				},
+				{
+					"build" : "components",
+					"childIndexes" : 
+					[
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						113,
+						114,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						192,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216
+					],
+					"jsonFile" : "directory-components-release-1bc088136865a8d91667.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components"
+				},
+				{
+					"build" : "components/assert",
+					"jsonFile" : "directory-components.assert-release-f2e07025d325046dec49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/assert"
+				},
+				{
+					"build" : "components/audio",
+					"jsonFile" : "directory-components.audio-release-0f58e56bc18116df1669.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/audio"
+				},
+				{
+					"build" : "components/aws_iot",
+					"jsonFile" : "directory-components.aws_iot-release-47408b333e4ef8f00ec8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/aws_iot"
+				},
+				{
+					"build" : "components/button",
+					"jsonFile" : "directory-components.button-release-0babad275fb4dba8ca70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/button"
+				},
+				{
+					"build" : "components/common_task",
+					"jsonFile" : "directory-components.common_task-release-02de00440e7269ff78f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/common_task"
+				},
+				{
+					"build" : "components/coremark",
+					"jsonFile" : "directory-components.coremark-release-dd0d773b519b63466f3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/coremark"
+				},
+				{
+					"build" : "components/crc",
+					"jsonFile" : "directory-components.crc-release-a82266d9a06b86c6c9e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/crc"
+				},
+				{
+					"build" : "components/debug_console",
+					"jsonFile" : "directory-components.debug_console-release-0d08f0d0a70232ddcea2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug_console"
+				},
+				{
+					"build" : "components/debug_console_lite",
+					"jsonFile" : "directory-components.debug_console_lite-release-694641c0d4344198a484.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug_console_lite"
+				},
+				{
+					"build" : "components/display",
+					"jsonFile" : "directory-components.display-release-4990d28613369b82330d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/display"
+				},
+				{
+					"build" : "components/exception_handling",
+					"jsonFile" : "directory-components.exception_handling-release-398158fa25cad3626c0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/exception_handling"
+				},
+				{
+					"build" : "components/flash",
+					"childIndexes" : 
+					[
+						112
+					],
+					"jsonFile" : "directory-components.flash-release-c139bf6b6364f42002f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/flash"
+				},
+				{
+					"build" : "components/flash/mflash/mcxnx4x",
+					"jsonFile" : "directory-components.flash.mflash.mcxnx4x-release-d30ce9a930832b09ed4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 111,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/flash/mflash/mcxnx4x"
+				},
+				{
+					"build" : "components/gpio",
+					"jsonFile" : "directory-components.gpio-release-972072e321c4fd20fb04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/gpio"
+				},
+				{
+					"build" : "components/i2c",
+					"childIndexes" : 
+					[
+						115
+					],
+					"jsonFile" : "directory-components.i2c-release-060094b019c7bdaeaa20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/i2c"
+				},
+				{
+					"build" : "components/i2c/muxes",
+					"jsonFile" : "directory-components.i2c.muxes-release-6fb19221f41d3050ec16.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 114,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/i2c/muxes"
+				},
+				{
+					"build" : "components/internal_flash",
+					"jsonFile" : "directory-components.internal_flash-release-c686a1c3b1eee79fd6c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/internal_flash"
+				},
+				{
+					"build" : "components/led",
+					"jsonFile" : "directory-components.led-release-90a9d94d292146d0183e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/led"
+				},
+				{
+					"build" : "components/lists",
+					"jsonFile" : "directory-components.lists-release-2dcd6c3454cde00ef56d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/lists"
+				},
+				{
+					"build" : "components/log",
+					"jsonFile" : "directory-components.log-release-58a85a66198dc9096634.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/log"
+				},
+				{
+					"build" : "components/mem_manager",
+					"jsonFile" : "directory-components.mem_manager-release-fa1524c5153aabb39a8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/mem_manager"
+				},
+				{
+					"build" : "components/messaging",
+					"jsonFile" : "directory-components.messaging-release-d920ad097eeeb7e1b08d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/messaging"
+				},
+				{
+					"build" : "components/misc_utilities",
+					"jsonFile" : "directory-components.misc_utilities-release-271d74fc821d9fd2e3f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/misc_utilities"
+				},
+				{
+					"build" : "components/osa",
+					"jsonFile" : "directory-components.osa-release-7ad36d2497a562666137.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/osa"
+				},
+				{
+					"build" : "components/panic",
+					"jsonFile" : "directory-components.panic-release-3740c4e5d70a4e9cfceb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/panic"
+				},
+				{
+					"build" : "components/pmic",
+					"jsonFile" : "directory-components.pmic-release-bb454689874d2f245ecc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/pmic"
+				},
+				{
+					"build" : "components/power_manager",
+					"jsonFile" : "directory-components.power_manager-release-3052ff96f8b6ba5feaaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/power_manager"
+				},
+				{
+					"build" : "components/pwm",
+					"jsonFile" : "directory-components.pwm-release-77cd3b6e00ac52073ba0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/pwm"
+				},
+				{
+					"build" : "components/reset",
+					"jsonFile" : "directory-components.reset-release-2f7ebbb50a002c4007fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/reset"
+				},
+				{
+					"build" : "components/reset1",
+					"jsonFile" : "directory-components.reset1-release-00236b947f8f75a5709f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/reset1"
+				},
+				{
+					"build" : "components/rng",
+					"jsonFile" : "directory-components.rng-release-e8b189ef1bc137a43ccf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/rng"
+				},
+				{
+					"build" : "components/rpmsg",
+					"jsonFile" : "directory-components.rpmsg-release-a96fe34aa9f1b4880416.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/rpmsg"
+				},
+				{
+					"build" : "components/rtc",
+					"jsonFile" : "directory-components.rtc-release-cff6086a1916688b5dfe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/rtc"
+				},
+				{
+					"build" : "components/sensor",
+					"jsonFile" : "directory-components.sensor-release-f3109042d9c280d296c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/sensor"
+				},
+				{
+					"build" : "components/serial_manager",
+					"jsonFile" : "directory-components.serial_manager-release-060f83914641b5cccea8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/serial_manager"
+				},
+				{
+					"build" : "components/shell",
+					"jsonFile" : "directory-components.shell-release-e76f63d2eba647d5a8c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/shell"
+				},
+				{
+					"build" : "components/spi",
+					"jsonFile" : "directory-components.spi-release-4a5cc219e03d6ac4537c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/spi"
+				},
+				{
+					"build" : "components/str",
+					"jsonFile" : "directory-components.str-release-b36aaadcda9312bdf119.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/str"
+				},
+				{
+					"build" : "components/timer",
+					"jsonFile" : "directory-components.timer-release-bbb25ab8eb37c349b494.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/timer"
+				},
+				{
+					"build" : "components/timer_manager",
+					"jsonFile" : "directory-components.timer_manager-release-3b86c9e4d2f9d5c95c92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/timer_manager"
+				},
+				{
+					"build" : "components/time_stamp",
+					"jsonFile" : "directory-components.time_stamp-release-22a29c81c7ecf0f43646.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/time_stamp"
+				},
+				{
+					"build" : "components/touch",
+					"jsonFile" : "directory-components.touch-release-a9e0a3ed5b955a6c1217.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/touch"
+				},
+				{
+					"build" : "components/uart",
+					"jsonFile" : "directory-components.uart-release-93bb41aece7425d2ff28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart"
+				},
+				{
+					"build" : "components/video",
+					"jsonFile" : "directory-components.video-release-55d7631623ee64e7ea6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/video"
+				},
+				{
+					"build" : "components/phy",
+					"jsonFile" : "directory-components.phy-release-a3e974498de9424386d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/phy"
+				},
+				{
+					"build" : "components/IS42SM16800H",
+					"jsonFile" : "directory-components.IS42SM16800H-release-20f44e5bd30bf8a24421.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/IS42SM16800H"
+				},
+				{
+					"build" : "components/adc_sensor",
+					"jsonFile" : "directory-components.adc_sensor-release-177b058f5b2b4b8aa9c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/adc_sensor"
+				},
+				{
+					"build" : "components/conn_fwloader",
+					"jsonFile" : "directory-components.conn_fwloader-release-d332efdf0c7ccff5259a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/conn_fwloader"
+				},
+				{
+					"build" : "components/ele_crypto",
+					"jsonFile" : "directory-components.ele_crypto-release-2b3ecbfa19e8fbc8c065.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/ele_crypto"
+				},
+				{
+					"build" : "components/v2x_base",
+					"jsonFile" : "directory-components.v2x_base-release-a6ec8d674768e79b1a25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/v2x_base"
+				},
+				{
+					"build" : "components/v2x_fce",
+					"jsonFile" : "directory-components.v2x_fce-release-0587db3b265646fc755f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/v2x_fce"
+				},
+				{
+					"build" : "components/i3c_bus",
+					"jsonFile" : "directory-components.i3c_bus-release-c77ae1920c410b01f458.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/i3c_bus"
+				},
+				{
+					"build" : "components/imx_sm_crc",
+					"jsonFile" : "directory-components.imx_sm_crc-release-f5c71a8712c794d47f6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/imx_sm_crc"
+				},
+				{
+					"build" : "components/imu_adapter",
+					"jsonFile" : "directory-components.imu_adapter-release-26019af021434b3d122b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/imu_adapter"
+				},
+				{
+					"build" : "components/mt48lc2m32b2",
+					"jsonFile" : "directory-components.mt48lc2m32b2-release-62b1c8981a25e85bdd38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/mt48lc2m32b2"
+				},
+				{
+					"build" : "components/mt48lc4m16a2",
+					"jsonFile" : "directory-components.mt48lc4m16a2-release-e321fa591f5be05230d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/mt48lc4m16a2"
+				},
+				{
+					"build" : "components/mx25_flash",
+					"jsonFile" : "directory-components.mx25_flash-release-fc1c3e116f02da55a44d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/mx25_flash"
+				},
+				{
+					"build" : "components/mx25l_flash",
+					"jsonFile" : "directory-components.mx25l_flash-release-07770eb54cc1722ead85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/mx25l_flash"
+				},
+				{
+					"build" : "components/mx25r_flash",
+					"jsonFile" : "directory-components.mx25r_flash-release-5b7008e51cb50ce36eba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/mx25r_flash"
+				},
+				{
+					"build" : "components/rtt",
+					"jsonFile" : "directory-components.rtt-release-c377d8c25f5a1f333413.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/rtt"
+				},
+				{
+					"build" : "components/scmi",
+					"jsonFile" : "directory-components.scmi-release-4cb573a0048bedaba608.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/scmi"
+				},
+				{
+					"build" : "components/sdu",
+					"jsonFile" : "directory-components.sdu-release-de037b8aef77fe912a2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/sdu"
+				},
+				{
+					"build" : "components/slcd_engine",
+					"jsonFile" : "directory-components.slcd_engine-release-d39da6e13493481022de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/slcd_engine"
+				},
+				{
+					"build" : "components/smt",
+					"jsonFile" : "directory-components.smt-release-27de854bdd8cc46171f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/smt"
+				},
+				{
+					"build" : "components/srtm",
+					"childIndexes" : 
+					[
+						165,
+						166
+					],
+					"jsonFile" : "directory-components.srtm-release-2b498d4aad7a74766726.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/srtm"
+				},
+				{
+					"build" : "components/srtm/channels",
+					"jsonFile" : "directory-components.srtm.channels-release-983197a0b487267f79ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 164,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/srtm/channels"
+				},
+				{
+					"build" : "components/srtm/services",
+					"jsonFile" : "directory-components.srtm.services-release-5ffd371953f88bf56cca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 164,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/srtm/services"
+				},
+				{
+					"build" : "components/sx1502",
+					"jsonFile" : "directory-components.sx1502-release-fadb9fd60d4f48040c5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/sx1502"
+				},
+				{
+					"build" : "components/wifi_bt_module",
+					"jsonFile" : "directory-components.wifi_bt_module-release-6dd7241110d89ede8acf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/wifi_bt_module"
+				},
+				{
+					"build" : "components/smbus",
+					"jsonFile" : "directory-components.smbus-release-abf9e4ca8d60c55ca80a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/smbus"
+				},
+				{
+					"build" : "components/debug_console_rtt",
+					"jsonFile" : "directory-components.debug_console_rtt-release-c7a3096a2e9828fbc457.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug_console_rtt"
+				},
+				{
+					"build" : "components/semihost",
+					"jsonFile" : "directory-components.semihost-release-9e2df6bc2442cb618978.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/semihost"
+				},
+				{
+					"build" : "components/notifier",
+					"jsonFile" : "directory-components.notifier-release-040cdfd77fddb13d064a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/notifier"
+				},
+				{
+					"build" : "components/ele_base_api",
+					"jsonFile" : "directory-components.ele_base_api-release-b3fbf248d67ca3ef216d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/ele_base_api"
+				},
+				{
+					"build" : "components/format",
+					"jsonFile" : "directory-components.format-release-021fd6e5a17d42bed1eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/format"
+				},
+				{
+					"build" : "components/mpi_loader",
+					"jsonFile" : "directory-components.mpi_loader-release-c0b29fbe3b28b56a9b2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/mpi_loader"
+				},
+				{
+					"build" : "components/pinctrl",
+					"jsonFile" : "directory-components.pinctrl-release-4a130a3055c2e3e4edd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/pinctrl"
+				},
+				{
+					"build" : "components/clock",
+					"jsonFile" : "directory-components.clock-release-e49989841bdb518c6c98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/clock"
+				},
+				{
+					"build" : "components/silicon_id",
+					"jsonFile" : "directory-components.silicon_id-release-c5fe0655e471bd8b432b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/silicon_id"
+				},
+				{
+					"build" : "components/sm",
+					"jsonFile" : "directory-components.sm-release-bc9701c063ae253155ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/sm"
+				},
+				{
+					"build" : "components/systick_timer",
+					"jsonFile" : "directory-components.systick_timer-release-4b308f8be8391fd3d04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/systick_timer"
+				},
+				{
+					"build" : "components/timer_lptmr",
+					"jsonFile" : "directory-components.timer_lptmr-release-1012ddb68cd10b6f03ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/timer_lptmr"
+				},
+				{
+					"build" : "components/unity",
+					"jsonFile" : "directory-components.unity-release-3767e4e8da0e56cf804e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/unity"
+				},
+				{
+					"build" : "components/power",
+					"jsonFile" : "directory-components.power-release-92a37f1d9c7cbf3750d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/power"
+				},
+				{
+					"build" : "components/codec",
+					"jsonFile" : "directory-components.codec-release-9553b26f06222fc09323.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/codec"
+				},
+				{
+					"build" : "components/expander",
+					"jsonFile" : "directory-components.expander-release-1669988fdfc10a329682.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/expander"
+				},
+				{
+					"build" : "components/edgefast_wifi",
+					"jsonFile" : "directory-components.edgefast_wifi-release-ea1a4e66621584e71b18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/edgefast_wifi"
+				},
+				{
+					"build" : "components/eeprom_emulation",
+					"jsonFile" : "directory-components.eeprom_emulation-release-775e7e6e30077e0d04b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/eeprom_emulation"
+				},
+				{
+					"build" : "components/eeprom_emulation_k4",
+					"jsonFile" : "directory-components.eeprom_emulation_k4-release-03a824d672b15e96418b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/eeprom_emulation_k4"
+				},
+				{
+					"build" : "components/storage",
+					"childIndexes" : 
+					[
+						190,
+						191
+					],
+					"jsonFile" : "directory-components.storage-release-81cafbf5781b46ba3a74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/storage"
+				},
+				{
+					"build" : "components/storage/stream",
+					"jsonFile" : "directory-components.storage.stream-release-fc2aeec61a94d9ca33c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 189,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/storage/stream"
+				},
+				{
+					"build" : "components/storage/flash_map",
+					"jsonFile" : "directory-components.storage.flash_map-release-f4f21044e05e5576ad34.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 189,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/storage/flash_map"
+				},
+				{
+					"build" : "components/debug",
+					"childIndexes" : 
+					[
+						193
+					],
+					"jsonFile" : "directory-components.debug-release-1396259ac8e09074df0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug"
+				},
+				{
+					"build" : "components/debug/coredump",
+					"jsonFile" : "directory-components.debug.coredump-release-3bfb5b6442f7f8cf50a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 192,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug/coredump"
+				},
+				{
+					"build" : "components/gen_hal",
+					"jsonFile" : "directory-components.gen_hal-release-0d81c64e20eb12fc981e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/gen_hal"
+				},
+				{
+					"build" : "components/lce",
+					"jsonFile" : "directory-components.lce-release-dd0dc8cf2df6f221451d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/lce"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_dspi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_dspi-release-7b03af92285c98a320a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_dspi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_ecspi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_ecspi-release-43f90a0bb264e5b3f125.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_ecspi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_enet",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_enet-release-acfd6d36af181b312cbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_enet"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_enet_phy",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_enet_phy-release-d61959d377e93eceb0be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_enet_phy"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_flexcomm",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_flexcomm-release-2aa3ae7fc243f210a570.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_flexcomm"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_gpio",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_gpio-release-227d6a9a63ebe75df808.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_gpio"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_i2c",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_i2c-release-bb3b1a34ef9ff14bda3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_i2c"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_ii2c",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_ii2c-release-840e80df298c3b26cab5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_ii2c"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_iuart",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_iuart-release-d46d296edcc017002cc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_iuart"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpc_gpio",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpc_gpio-release-069a44fe5b958a4e9892.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_lpc_gpio"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpc_i2c",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpc_i2c-release-47c41cb54a4c7908f94b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_lpc_i2c"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpc_vspi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpc_vspi-release-f2478a694379efa13b39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_lpc_vspi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpc_vusart",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpc_vusart-release-2fb5419c046d512aefd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_lpc_vusart"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpi2c",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpi2c-release-f659076952e638c42a82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_lpi2c"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpsci",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpsci-release-43a327c7c3552bb63343.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_lpsci"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpspi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpspi-release-df5304609660cac93dc0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_lpspi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpuart",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpuart-release-bb0b3c106ebc30e1ab45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_lpuart"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_mcx_enet",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_mcx_enet-release-00f76e11d46420172484.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_mcx_enet"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_mcx_flash",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_mcx_flash-release-79ce2b9e6514f7db2012.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_mcx_flash"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_spi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_spi-release-4dda09ca0a93ae149435.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_spi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_uart",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_uart-release-b807cb82f8ba978a9dae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 99,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/cmsis_drivers/cmsis_uart"
+				},
+				{
+					"build" : "rtos/freertos/corehttp",
+					"jsonFile" : "directory-rtos.freertos.corehttp-release-ad4645ae6f297ccab5f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/corehttp"
+				},
+				{
+					"build" : "rtos/freertos/corejson",
+					"jsonFile" : "directory-rtos.freertos.corejson-release-84b181a35a1997e99090.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/corejson"
+				},
+				{
+					"build" : "rtos/freertos/coremqtt",
+					"jsonFile" : "directory-rtos.freertos.coremqtt-release-a49a8dd49b827ac15a5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/coremqtt"
+				},
+				{
+					"build" : "rtos/freertos/freertos-kernel",
+					"jsonFile" : "directory-rtos.freertos.freertos-kernel-release-a7b4102b8e001977615b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-kernel"
+				},
+				{
+					"build" : "middleware/usb",
+					"jsonFile" : "directory-middleware.usb-release-386670f0487d7192ea98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/usb"
+				},
+				{
+					"build" : "middleware/fatfs",
+					"jsonFile" : "directory-middleware.fatfs-release-8c9a541ae324a96c6bc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/fatfs"
+				},
+				{
+					"build" : "middleware/littlefs",
+					"jsonFile" : "directory-middleware.littlefs-release-acdbd511a4eb6d0ef8c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/littlefs"
+				},
+				{
+					"build" : "middleware/multicore",
+					"childIndexes" : 
+					[
+						225,
+						226,
+						227,
+						228
+					],
+					"jsonFile" : "directory-middleware.multicore-release-efc5addb56407c4c581c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/multicore"
+				},
+				{
+					"build" : "middleware/multicore/mcmgr",
+					"jsonFile" : "directory-middleware.multicore.mcmgr-release-c15c9b1e0eead69bfc6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 224,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/multicore/mcmgr"
+				},
+				{
+					"build" : "middleware/multicore/rpmsg-lite",
+					"jsonFile" : "directory-middleware.multicore.rpmsg-lite-release-aa735d59dd9e8f25a455.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 224,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/multicore/rpmsg-lite"
+				},
+				{
+					"build" : "middleware/multicore/erpc/mcux",
+					"jsonFile" : "directory-middleware.multicore.erpc.mcux-release-072337c8744de99d2123.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 224,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/multicore/erpc/mcux"
+				},
+				{
+					"build" : "middleware/multicore/remoteproc",
+					"jsonFile" : "directory-middleware.multicore.remoteproc-release-2c6f14523f66e392731d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 224,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/multicore/remoteproc"
+				},
+				{
+					"build" : "middleware/lwip",
+					"jsonFile" : "directory-middleware.lwip-release-0259cef25cdc3ca0d6f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/lwip"
+				},
+				{
+					"build" : "middleware/llhttp",
+					"jsonFile" : "directory-middleware.llhttp-release-23f77c51d7ef54adf399.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/llhttp"
+				},
+				{
+					"build" : "middleware/tfm/tf-m/mcux",
+					"jsonFile" : "directory-middleware.tfm.tf-m.mcux-release-30c317c628eb66effc63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/tfm/tf-m/mcux"
+				},
+				{
+					"build" : "middleware/sdmmc",
+					"jsonFile" : "directory-middleware.sdmmc-release-c8fdd31e561ac96c4805.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/sdmmc"
+				},
+				{
+					"build" : "middleware/rtcesl",
+					"jsonFile" : "directory-middleware.rtcesl-release-be09de1f1f7f6f72015c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/rtcesl"
+				},
+				{
+					"build" : "middleware/motor_control",
+					"jsonFile" : "directory-middleware.motor_control-release-cba1ff45c3a097e0a6ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/motor_control"
+				},
+				{
+					"build" : "examples/lvgl_examples/lvgl_sdk",
+					"jsonFile" : "directory-examples.lvgl_examples.lvgl_sdk-release-352838d0e6e4466d7930.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/lvgl_examples/lvgl_sdk"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers",
+					"childIndexes" : 
+					[
+						237,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246,
+						247,
+						248,
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256,
+						257
+					],
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers-release-f63e191854e62c48ce48.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/dspi",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.dspi-release-7781ca3c32aa9bc5663e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/dspi"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/ecspi",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.ecspi-release-b0dca2667b24ced0a860.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/ecspi"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/i2c",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.i2c-release-1117a2036a7b22b26c3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/i2c"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/ii2c",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.ii2c-release-2dfa4242349fa07d2862.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/ii2c"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/iuart",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.iuart-release-ab1e1d9a92ce60c67c8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/iuart"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpc_i2c",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpc_i2c-release-c387e87788318585efb2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpc_i2c"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpc_vspi",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpc_vspi-release-eaeb33fd6d7f2adc09c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpc_vspi"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpc_vusart",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpc_vusart-release-7df7d125ec2e85aec0cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpc_vusart"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpflexcomm/lpi2c",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpflexcomm.lpi2c-release-81d5fb3fbd9309f578f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpflexcomm/lpi2c"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpflexcomm/lpspi",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpflexcomm.lpspi-release-d6bf2f0eb69355308c1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpflexcomm/lpspi"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpflexcomm/lpuart",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpflexcomm.lpuart-release-f95d084eb51043264227.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpflexcomm/lpuart"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpi2c",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpi2c-release-a49c0e293790682da8e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpi2c"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpsci",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpsci-release-c0846368d84f622ed422.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpsci"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpspi",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpspi-release-beafe5a2928d2afeb3a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpspi"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/lpuart",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.lpuart-release-8ad45aad2cdbf1d33ed5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/lpuart"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/smartcard",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.smartcard-release-e4a001dd96f68eecc231.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/smartcard"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/spi",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.spi-release-09ba45a1e4772e24d4a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/spi"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/uart",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.uart-release-fb8b7522f120422a4d19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/uart"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/flexcomm/usart",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.flexcomm.usart-release-9538ccfb2e92bc84e76a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/flexcomm/usart"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/flexcomm/spi",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.flexcomm.spi-release-b89b348f3e5b30ac9cd6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/flexcomm/spi"
+				},
+				{
+					"build" : "rtos/freertos/freertos-drivers/flexcomm/i2c",
+					"jsonFile" : "directory-rtos.freertos.freertos-drivers.flexcomm.i2c-release-2510d82f7afc8afeba8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 236,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/rtos/freertos/freertos-drivers/flexcomm/i2c"
+				},
+				{
+					"build" : "middleware/mcuboot_opensource",
+					"jsonFile" : "directory-middleware.mcuboot_opensource-release-d0c21a38a4c79d2d4385.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/mcuboot_opensource"
+				},
+				{
+					"build" : "middleware/pkcs11",
+					"jsonFile" : "directory-middleware.pkcs11-release-34378602798456df1e00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/pkcs11"
+				},
+				{
+					"build" : "middleware/tinycbor",
+					"jsonFile" : "directory-middleware.tinycbor-release-a89b53e9d9f2444a168c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/tinycbor"
+				},
+				{
+					"build" : "middleware/freemaster/mcux",
+					"jsonFile" : "directory-middleware.freemaster.mcux-release-976eb86eb6fc38aef691.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/freemaster/mcux"
+				},
+				{
+					"build" : "middleware/safety_iec60730b",
+					"jsonFile" : "directory-middleware.safety_iec60730b-release-21a3989d2f65657ae9ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/safety_iec60730b"
+				},
+				{
+					"build" : "middleware/cadence",
+					"jsonFile" : "directory-middleware.cadence-release-f2961f4a519c24899a2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/cadence"
+				},
+				{
+					"build" : "middleware/touch",
+					"jsonFile" : "directory-middleware.touch-release-487d81aca9fc8fed80ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/touch"
+				},
+				{
+					"build" : "middleware/metering",
+					"jsonFile" : "directory-middleware.metering-release-cd2b13f6611ec7a36a4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/metering"
+				},
+				{
+					"build" : "middleware/wireless/ethermind",
+					"jsonFile" : "directory-middleware.wireless.ethermind-release-637f50f6c0f58f0ae001.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/wireless/ethermind"
+				},
+				{
+					"build" : "middleware/eiq",
+					"childIndexes" : 
+					[
+						268,
+						269,
+						270
+					],
+					"jsonFile" : "directory-middleware.eiq-release-2494287887c15e2bb2af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/eiq"
+				},
+				{
+					"build" : "middleware/eiq/tensorflow-lite",
+					"jsonFile" : "directory-middleware.eiq.tensorflow-lite-release-15ccfccb256e5cbc6176.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 267,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/eiq/tensorflow-lite"
+				},
+				{
+					"build" : "middleware/eiq/mpp",
+					"jsonFile" : "directory-middleware.eiq.mpp-release-b45482dec8bfd766cff1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 267,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/eiq/mpp"
+				},
+				{
+					"build" : "middleware/eiq/ethos-u-core-software",
+					"jsonFile" : "directory-middleware.eiq.ethos-u-core-software-release-dc8a769383074b60b3dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 267,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/eiq/ethos-u-core-software"
+				},
+				{
+					"build" : "middleware/se_hostlib",
+					"jsonFile" : "directory-middleware.se_hostlib-release-2ec1e2db545f6548d5b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/se_hostlib"
+				},
+				{
+					"build" : "middleware/emwin",
+					"jsonFile" : "directory-middleware.emwin-release-e0be9867984f1fe05253.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/emwin"
+				},
+				{
+					"build" : "middleware/canopennode",
+					"jsonFile" : "directory-middleware.canopennode-release-a3b9ecd14283c64dcaeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/canopennode"
+				},
+				{
+					"build" : "middleware/mstp-lib",
+					"jsonFile" : "directory-middleware.mstp-lib-release-ed8ceffe32050062d6b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/middleware/mstp-lib"
+				}
+			],
+			"name" : "release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						237,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246,
+						247,
+						248,
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256,
+						257,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263,
+						264,
+						265,
+						266,
+						267,
+						268,
+						269,
+						270,
+						271,
+						272,
+						273,
+						274
+					],
+					"name" : "frdm_mcxn947_ambilights",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "attach::@dac8187c30f26610133b",
+					"jsonFile" : "target-attach-release-2ad93e1c8163605ff435.json",
+					"name" : "attach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "dashboard::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-dashboard-release-a2be1b6c6885f81e9c56.json",
+					"name" : "dashboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "debug::@dac8187c30f26610133b",
+					"jsonFile" : "target-debug-release-53993c7b7998c86df0eb.json",
+					"name" : "debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "debugserver::@dac8187c30f26610133b",
+					"jsonFile" : "target-debugserver-release-d5a693636a6aa3449ee3.json",
+					"name" : "debugserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flash::@dac8187c30f26610133b",
+					"jsonFile" : "target-flash-release-9527eb0fffef500349d0.json",
+					"name" : "flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "footprint::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-footprint-release-dae1184717b201f308b8.json",
+					"name" : "footprint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "frdm_mcxn947_ambilights_cm33_core0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frdm_mcxn947_ambilights_cm33_core0-release-fa966d4ce67fa515e91a.json",
+					"name" : "frdm_mcxn947_ambilights_cm33_core0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "guiconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-guiconfig-release-4627fcf6835e2f3c82f4.json",
+					"name" : "guiconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hardenconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hardenconfig-release-7501762ef456b4dafeae.json",
+					"name" : "hardenconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manifest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manifest-release-73ea8e27a5468fcfbdaa.json",
+					"name" : "manifest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "menuconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-menuconfig-release-79eed36057247190f569.json",
+					"name" : "menuconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pristine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pristine-release-afb5436a5e01f4a0dd33.json",
+					"name" : "pristine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ram_plot::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-ram_plot-release-e34a98eeca510848ebd6.json",
+					"name" : "ram_plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ram_report::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-ram_report-release-8f276d9e447bf31c5ffa.json",
+					"name" : "ram_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rom_plot::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-rom_plot-release-2ebf22cd1613397a4e08.json",
+					"name" : "rom_plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rom_report::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-rom_report-release-d7898ef4595138c03664.json",
+					"name" : "rom_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runners_yaml_props_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runners_yaml_props_target-release-1b567d658a0f92d99c01.json",
+					"name" : "runners_yaml_props_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "standalone_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-standalone_project-release-ebb719251ceff32a2d0c.json",
+					"name" : "standalone_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traceconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traceconfig-release-b928e21c86baff17b32d.json",
+					"name" : "traceconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "usage::@8ec01537637d7c5065b0",
+					"jsonFile" : "target-usage-release-4afc395cb2b0d83ffdb3.json",
+					"name" : "usage",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/release",
+		"source" : "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

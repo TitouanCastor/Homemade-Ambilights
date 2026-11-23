@@ -1,0 +1,3 @@
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/board.c:28:6:BOARD_InitDebugConsole	16	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/board.c:44:6:BOARD_InitDebugConsole_Core1	16	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/frdmmcxn947/board.c:232:6:BOARD_PowerMode_OD	16	static

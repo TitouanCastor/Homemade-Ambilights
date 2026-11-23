@@ -1,0 +1,2 @@
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/led_blinky/peripherals.c:83:6:BOARD_InitPeripherals	4	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/led_blinky/peripherals.c:91:6:BOARD_InitBootPeripherals	8	static

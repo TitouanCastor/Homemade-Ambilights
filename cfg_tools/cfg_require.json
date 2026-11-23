@@ -1,0 +1,17 @@
+{
+  "projects": [{
+    "core": "cm33_core0",
+    "addComponents": [],
+    "device_package": "MCXN947VDF",
+    "addIncludes": [],
+    "projectBoardFolder": "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0",
+    "source_generated_cmake_file_path": "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/cfg_tools_generated.cmake",
+    "addFiles": [],
+    "name": "frdm_mcxn947_ambilights",
+    "removeFiles": [],
+    "projectRootPath": "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank",
+    "component_edit_prj_file_path": "/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/prj.conf",
+    "board": "frdmmcxn947"
+  }],
+  "$schema": "https://mcuxpresso.nxp.com/staticdata/mcux/schema/cfg_require/cfg_require_schema_1.0.json"
+}

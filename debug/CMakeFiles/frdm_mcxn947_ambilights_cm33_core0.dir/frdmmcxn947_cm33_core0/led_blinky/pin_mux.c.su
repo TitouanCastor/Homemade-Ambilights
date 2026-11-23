@@ -1,0 +1,5 @@
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.h:1496:20:CLOCK_EnableClock	24	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/port/fsl_port.h:360:20:PORT_SetPinConfig	32	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/port/fsl_port.h:463:20:PORT_SetPinMux	24	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/led_blinky/pin_mux.c:36:6:BOARD_InitBootPins	8	static
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/frdmmcxn947_cm33_core0/led_blinky/pin_mux.c:63:6:BOARD_InitPins	24	static

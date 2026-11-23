@@ -1,0 +1,1 @@
+/home/pc-de-titouan/delivery/perso/ambilights-embedded/Ambilights/frdm_mcxn947_blank/debug/mcux_config.h
